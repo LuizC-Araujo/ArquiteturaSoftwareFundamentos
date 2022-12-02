@@ -15,6 +15,10 @@
 
         // não é obrigado a implementar quando tem abstract
         public abstract void Ligar();
-        public abstract int Desligar();
+        public abstract void Desligar();
+        public virtual void Testar()
+        {
+            // teste do equipamento
+        }
     }
 }
